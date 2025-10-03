@@ -4,3 +4,11 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+extism = "1.12.0"
+floem = "0.2.0"
+just-kdl = "0.1.0"
+kdl = "6.5.0"
+reqwest = { version = "0.12.23", features = ["rustls-tls-native-roots", "json", "http2", "gzip", "brotli", "zstd", "cookies"] }
+rhai = "1.23.4"
+tokio = { version = "1.47.1", features = ["full"] }
+wasmtime = { version = "37.0.1", features = ["component-model"] }
